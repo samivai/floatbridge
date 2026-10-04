@@ -1,0 +1,321 @@
+{
+  "records": [
+    {
+      "seed": 8100,
+      "threshold": {
+        "failed": 9,
+        "attempted": 431,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 0,
+        "attempted": 431,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      },
+      "ml": {
+        "failed": 0,
+        "attempted": 431,
+        "visits": 5,
+        "exchange": 59700,
+        "visitCost": 750
+      }
+    },
+    {
+      "seed": 8101,
+      "threshold": {
+        "failed": 12,
+        "attempted": 432,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 1,
+        "attempted": 432,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      },
+      "ml": {
+        "failed": 1,
+        "attempted": 432,
+        "visits": 5,
+        "exchange": 59700,
+        "visitCost": 750
+      }
+    },
+    {
+      "seed": 8102,
+      "threshold": {
+        "failed": 11,
+        "attempted": 429,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 0,
+        "attempted": 429,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 1,
+        "attempted": 429,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    },
+    {
+      "seed": 8103,
+      "threshold": {
+        "failed": 10,
+        "attempted": 431,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 0,
+        "attempted": 431,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 0,
+        "attempted": 431,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    },
+    {
+      "seed": 8104,
+      "threshold": {
+        "failed": 7,
+        "attempted": 430,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 1,
+        "attempted": 430,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 0,
+        "attempted": 430,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    },
+    {
+      "seed": 8105,
+      "threshold": {
+        "failed": 6,
+        "attempted": 431,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 1,
+        "attempted": 431,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 1,
+        "attempted": 431,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    },
+    {
+      "seed": 8106,
+      "threshold": {
+        "failed": 10,
+        "attempted": 430,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 2,
+        "attempted": 430,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 0,
+        "attempted": 430,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    },
+    {
+      "seed": 8107,
+      "threshold": {
+        "failed": 13,
+        "attempted": 430,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 5,
+        "attempted": 430,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      },
+      "ml": {
+        "failed": 5,
+        "attempted": 430,
+        "visits": 5,
+        "exchange": 59700,
+        "visitCost": 750
+      }
+    },
+    {
+      "seed": 8108,
+      "threshold": {
+        "failed": 9,
+        "attempted": 429,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 0,
+        "attempted": 429,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      },
+      "ml": {
+        "failed": 0,
+        "attempted": 429,
+        "visits": 5,
+        "exchange": 59700,
+        "visitCost": 750
+      }
+    },
+    {
+      "seed": 8109,
+      "threshold": {
+        "failed": 9,
+        "attempted": 426,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 1,
+        "attempted": 426,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 1,
+        "attempted": 426,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    },
+    {
+      "seed": 8110,
+      "threshold": {
+        "failed": 9,
+        "attempted": 432,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 2,
+        "attempted": 432,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 1,
+        "attempted": 432,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    },
+    {
+      "seed": 8111,
+      "threshold": {
+        "failed": 7,
+        "attempted": 429,
+        "visits": 4,
+        "exchange": 34600,
+        "visitCost": 600
+      },
+      "seasonal": {
+        "failed": 3,
+        "attempted": 429,
+        "visits": 5,
+        "exchange": 60000,
+        "visitCost": 750
+      },
+      "ml": {
+        "failed": 2,
+        "attempted": 429,
+        "visits": 6,
+        "exchange": 60000,
+        "visitCost": 900
+      }
+    }
+  ],
+  "totals": {
+    "threshold": {
+      "failed": 112,
+      "attempted": 5160,
+      "visits": 48,
+      "exchange": 415200,
+      "failedRate": 0.021705426356589147
+    },
+    "seasonal": {
+      "failed": 16,
+      "attempted": 5160,
+      "visits": 64,
+      "exchange": 720000,
+      "failedRate": 0.0031007751937984496
+    },
+    "ml": {
+      "failed": 12,
+      "attempted": 5160,
+      "visits": 68,
+      "exchange": 718800,
+      "failedRate": 0.002325581395348837
+    }
+  },
+  "pairedImprovement": {
+    "mean": 8.333333333333334,
+    "min": 5,
+    "max": 11
+  },
+  "note": "12 independent synthetic scenario seeds. No real-world impact claim. Same budgets, balances, lead times and demand across policies."
+}
