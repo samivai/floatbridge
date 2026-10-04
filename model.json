@@ -1,0 +1,103 @@
+{
+  "name": "Ridge regression on log hourly demand",
+  "alpha": 10.0,
+  "features": [
+    "intercept",
+    "hour_sin",
+    "hour_cos",
+    "hour_sin_2",
+    "hour_cos_2",
+    "weekend",
+    "payday",
+    "cash_out_segment",
+    "balanced_segment",
+    "out_x_sin",
+    "out_x_cos",
+    "balanced_x_sin",
+    "balanced_x_cos",
+    "log_scale"
+  ],
+  "coefficients": [
+    [
+      8.107608709131009,
+      7.258119516579046
+    ],
+    [
+      -0.18718894589420396,
+      -0.1754487136854499
+    ],
+    [
+      -0.0427437878739751,
+      -0.030539094420075515
+    ],
+    [
+      0.07466185797743338,
+      0.08954020664635577
+    ],
+    [
+      0.4397365609822088,
+      0.41470710025842633
+    ],
+    [
+      0.15756445460736976,
+      0.1546849281351385
+    ],
+    [
+      0.02316815727258218,
+      0.49508361496545705
+    ],
+    [
+      -0.6172601412254354,
+      1.045722223102426
+    ],
+    [
+      -0.4784113623054814,
+      0.3193752102742179
+    ],
+    [
+      0.5545689947429908,
+      0.5715010724252818
+    ],
+    [
+      0.3085596533642316,
+      0.13272077691021683
+    ],
+    [
+      -0.014969558108384766,
+      -0.01817665124044835
+    ],
+    [
+      -0.0012320592419394006,
+      -0.13685328288340926
+    ],
+    [
+      0.9465252341316007,
+      0.9707741201282443
+    ]
+  ],
+  "smearing_correction": [
+    1.0539194047952578,
+    1.053349294823068
+  ],
+  "metrics": {
+    "model_wape": 0.2579780599268098,
+    "seasonal_wape": 0.2631824079021284,
+    "model_mae_bdt": 719.3059821397943,
+    "seasonal_mae_bdt": 733.8169782797213,
+    "train_rows": 7200,
+    "validation_rows": 1800,
+    "test_rows": 1800
+  },
+  "split": {
+    "train": "days 0-59",
+    "validation": "days 60-74",
+    "test": "days 75-89"
+  },
+  "seed": 20261004,
+  "limitations": [
+    "Synthetic generator only; no upay data.",
+    "Point forecasts, not calibrated shortage probabilities.",
+    "Known payday flag is observable in advance; surprise shock is not.",
+    "Cash snapshots are assumed accurate unless marked stale."
+  ]
+}
