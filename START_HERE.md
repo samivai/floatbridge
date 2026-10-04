@@ -1,6 +1,9 @@
 # FloatBridge: emergency submission guide
 
-The working prototype is ready locally. **The public repository, live deployment URL and your recorded video are still required.** Do not submit a localhost URL. No official contest submission has been made for you.
+The working prototype is published. **Your recorded video and official contest submission are still required.** No official contest submission has been made for you.
+
+- Live app: https://samivai.github.io/floatbridge/
+- Public repository: https://github.com/samivai/floatbridge
 
 ## Open it now
 
@@ -8,7 +11,7 @@ Double-click `index.html`. It works without installation, an API key or internet
 
 ## Three teammates, three parallel jobs
 
-**Member 1: repository and hosting (start immediately).** Publish the existing local Git repository to a public GitHub repository while preserving its real commit history. Use GitHub Desktop's Add Local Repository and Publish Repository, or the commands in README. The local author label explicitly says AI-assisted prototype. Do not backdate or impersonate earlier development. In GitHub Settings > Pages, publish the main branch from /(root). Replace README's live-link placeholder with the verified HTTPS URL. Open the site signed out. GitHub Pages supports public repositories on GitHub Free.
+**Member 1: verify published delivery.** Open the public repository and live app signed out or on another device. Check that the original four development commits are present, the report matches the working app, and the README links are correct. The author label explicitly says AI-assisted prototype. Keep the existing history for final-day updates; do not backdate or impersonate earlier development. GitHub Pages publishes the main branch from /(root).
 
 **Member 2: demonstration video.** Follow DEMO_SCRIPT.md. Record the actual working app for about 2-3 minutes, subject to the organizer's limit. Show approval changing the result, stale-data rejection and the honest seasonal comparison. Use your own voice and make sure every member can explain the model. Upload using the required official method or a judge-accessible video link.
 

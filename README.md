@@ -6,7 +6,11 @@
 
 ## Live deployment
 
-**REQUIRED BEFORE SUBMISSION: replace this line with your verified public deployment URL.** The project is deployment-ready but this repository does not claim an already-published site. A localhost URL is not a public deployment.
+[Open the live FloatBridge app](https://samivai.github.io/floatbridge/)
+
+[Public source repository and development history](https://github.com/samivai/floatbridge)
+
+Hosted free on GitHub Pages. The live app's approval and replay flow was verified after deployment. No login is required for judges.
 
 ## Problem and solution
 

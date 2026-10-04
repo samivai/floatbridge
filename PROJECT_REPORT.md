@@ -120,4 +120,8 @@ The project uses NumPy for numerical training and plain JavaScript for runtime i
 
 Contest references: General Rules; AI Hackathon Rulebook, especially sections 3-8; Project Guideline & Innovation Playbook, especially Track 05 and sections 10-15. External context: IFC, Digital Financial Services and the Business of Managing Cash; upay's official agent service-location page. These support context, not measured upay impact.
 
-The submitted repository and deployment links should be supplied through the official form and in the final README. This report does not assert that deployment or contest submission has already occurred.
+Live deployment: https://samivai.github.io/floatbridge/
+
+Public repository and development history: https://github.com/samivai/floatbridge
+
+The live approval and replay flow was verified after deployment. The team still needs to provide these links, the report and a recorded video through the official contest submission channel. No official contest submission has been made by publishing this prototype.

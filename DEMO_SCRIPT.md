@@ -38,7 +38,7 @@ Open Inside the model; briefly show Export evidence.
 
 Say: "The prototype runs without paid APIs. Forecasting, planning and accounting are separate, so we can adapt to new requirements. The next step would be governed historical validation with reliable balances and attempted-demand data, followed by shadow mode. No production access or live financial execution is claimed."
 
-Finish by displaying the real public repository and deployment links once available. Do not read placeholder links.
+Finish by displaying the public repository (https://github.com/samivai/floatbridge) and live deployment (https://samivai.github.io/floatbridge/).
 
 ## Five-minute technical rehearsal
 
