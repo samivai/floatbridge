@@ -53,7 +53,7 @@
     let hubCash=opt.hubCash,hubEfloat=opt.hubEfloat,failed=0,attempted=0,failedValue=0,fulfilledValue=0;
     let exchanged=0,visits=0; const log=[],delivered=new Set();
     const timeline=data.agents.map(a=>({id:a.id,points:[{minute:0,cash:a.cash,efloat:a.efloat}]}));
-    const all=[...scenario.events.map((e,i)=>({...e,type:'request',sequence:i})),...(approved?(plan?.items||[]).map((p,i)=>({...p,type:'delivery',minute:p.arrivalMinute,sequence:i})):[])].sort((a,b)=>a.minute-b.minute||(a.type==='delivery'?-1:1));
+    const all=[...scenario.events.map((e,i)=>({...e,type:'request',sequence:i})),...(approved?(plan?.items||[]).map((p,i)=>({...p,type:'delivery',minute:p.arrivalMinute,sequence:i})):[])].sort((a,b)=>a.minute-b.minute||((a.type==='delivery'?0:1)-(b.type==='delivery'?0:1))||a.sequence-b.sequence);
     for(const e of all){
       const a=agents[e.agent];if(!a)throw new Error('Unknown agent in scenario');
       if(e.type==='delivery'){
@@ -78,10 +78,10 @@
   }
   function evaluate(data,options={}){
     const records=data.evaluation.map(s=>{
-      const values={seed:s.seed};for(const policy of ['threshold','seasonal','ml']){const p=propose(data,s,policy,options);const r=replay(data,s,p,true);values[policy]={failed:r.failed,attempted:r.attempted,visits:r.visits,exchange:r.exchanged,visitCost:r.visitCost};}return values;
+      const values={seed:s.seed};for(const policy of ['threshold','seasonal','ml']){const p=propose(data,s,policy,options);const r=replay(data,s,p,true);values[policy]={failed:r.failed,attempted:r.attempted,visits:r.visits,exchange:r.exchanged,visitCost:r.visitCost,groups:r.groups};}return values;
     });
     const totals={};for(const policy of ['threshold','seasonal','ml']){
-      const t=records.reduce((a,r)=>({failed:a.failed+r[policy].failed,attempted:a.attempted+r[policy].attempted,visits:a.visits+r[policy].visits,exchange:a.exchange+r[policy].exchange}),{failed:0,attempted:0,visits:0,exchange:0});t.failedRate=t.failed/t.attempted;totals[policy]=t;
+      const t=records.reduce((a,r)=>({failed:a.failed+r[policy].failed,attempted:a.attempted+r[policy].attempted,visits:a.visits+r[policy].visits,exchange:a.exchange+r[policy].exchange}),{failed:0,attempted:0,visits:0,exchange:0});t.failedRate=t.failed/t.attempted;t.groups={};for(const r of records){for(const [group,g] of Object.entries(r[policy].groups)){const z=t.groups[group]||(t.groups[group]={failed:0,attempted:0});z.failed+=g.failed;z.attempted+=g.attempted;}}totals[policy]=t;
     }
     const differences=records.map(r=>r.threshold.failed-r.ml.failed);
     return {records,totals,pairedImprovement:{mean:differences.reduce((a,b)=>a+b,0)/differences.length,min:Math.min(...differences),max:Math.max(...differences)},note:'12 independent synthetic scenario seeds. No real-world impact claim. Same budgets, balances, lead times and demand across policies.'};

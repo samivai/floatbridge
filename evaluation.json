@@ -7,21 +7,51 @@
         "attempted": 431,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 9,
+            "attempted": 323
+          }
+        }
       },
       "seasonal": {
         "failed": 0,
         "attempted": 431,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 323
+          }
+        }
       },
       "ml": {
         "failed": 0,
         "attempted": 431,
         "visits": 5,
         "exchange": 59700,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 323
+          }
+        }
       }
     },
     {
@@ -31,21 +61,51 @@
         "attempted": 432,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 12,
+            "attempted": 324
+          }
+        }
       },
       "seasonal": {
         "failed": 1,
         "attempted": 432,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 324
+          }
+        }
       },
       "ml": {
         "failed": 1,
         "attempted": 432,
         "visits": 5,
         "exchange": 59700,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 324
+          }
+        }
       }
     },
     {
@@ -55,21 +115,51 @@
         "attempted": 429,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 11,
+            "attempted": 322
+          }
+        }
       },
       "seasonal": {
         "failed": 0,
         "attempted": 429,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 322
+          }
+        }
       },
       "ml": {
         "failed": 1,
         "attempted": 429,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 322
+          }
+        }
       }
     },
     {
@@ -79,21 +169,51 @@
         "attempted": 431,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 10,
+            "attempted": 323
+          }
+        }
       },
       "seasonal": {
         "failed": 0,
         "attempted": 431,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 323
+          }
+        }
       },
       "ml": {
         "failed": 0,
         "attempted": 431,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 323
+          }
+        }
       }
     },
     {
@@ -103,21 +223,51 @@
         "attempted": 430,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 1,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 6,
+            "attempted": 323
+          }
+        }
       },
       "seasonal": {
         "failed": 1,
         "attempted": 430,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 323
+          }
+        }
       },
       "ml": {
         "failed": 0,
         "attempted": 430,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 323
+          }
+        }
       }
     },
     {
@@ -127,21 +277,51 @@
         "attempted": 431,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 1,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 5,
+            "attempted": 323
+          }
+        }
       },
       "seasonal": {
         "failed": 1,
         "attempted": 431,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 323
+          }
+        }
       },
       "ml": {
         "failed": 1,
         "attempted": 431,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 323
+          }
+        }
       }
     },
     {
@@ -151,21 +331,51 @@
         "attempted": 430,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 1,
+            "attempted": 106
+          },
+          "Standard": {
+            "failed": 9,
+            "attempted": 324
+          }
+        }
       },
       "seasonal": {
         "failed": 2,
         "attempted": 430,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 106
+          },
+          "Standard": {
+            "failed": 2,
+            "attempted": 324
+          }
+        }
       },
       "ml": {
         "failed": 0,
         "attempted": 430,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 106
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 324
+          }
+        }
       }
     },
     {
@@ -175,21 +385,51 @@
         "attempted": 430,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 13,
+            "attempted": 323
+          }
+        }
       },
       "seasonal": {
         "failed": 5,
         "attempted": 430,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 5,
+            "attempted": 323
+          }
+        }
       },
       "ml": {
         "failed": 5,
         "attempted": 430,
         "visits": 5,
         "exchange": 59700,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 5,
+            "attempted": 323
+          }
+        }
       }
     },
     {
@@ -199,21 +439,51 @@
         "attempted": 429,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 9,
+            "attempted": 321
+          }
+        }
       },
       "seasonal": {
         "failed": 0,
         "attempted": 429,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 321
+          }
+        }
       },
       "ml": {
         "failed": 0,
         "attempted": 429,
         "visits": 5,
         "exchange": 59700,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 0,
+            "attempted": 321
+          }
+        }
       }
     },
     {
@@ -223,21 +493,51 @@
         "attempted": 426,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 105
+          },
+          "Standard": {
+            "failed": 9,
+            "attempted": 321
+          }
+        }
       },
       "seasonal": {
         "failed": 1,
         "attempted": 426,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 105
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 321
+          }
+        }
       },
       "ml": {
         "failed": 1,
         "attempted": 426,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 105
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 321
+          }
+        }
       }
     },
     {
@@ -247,21 +547,51 @@
         "attempted": 432,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 9,
+            "attempted": 324
+          }
+        }
       },
       "seasonal": {
         "failed": 2,
         "attempted": 432,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 2,
+            "attempted": 324
+          }
+        }
       },
       "ml": {
         "failed": 1,
         "attempted": 432,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 108
+          },
+          "Standard": {
+            "failed": 1,
+            "attempted": 324
+          }
+        }
       }
     },
     {
@@ -271,21 +601,51 @@
         "attempted": 429,
         "visits": 4,
         "exchange": 34600,
-        "visitCost": 600
+        "visitCost": 600,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 7,
+            "attempted": 322
+          }
+        }
       },
       "seasonal": {
         "failed": 3,
         "attempted": 429,
         "visits": 5,
         "exchange": 60000,
-        "visitCost": 750
+        "visitCost": 750,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 3,
+            "attempted": 322
+          }
+        }
       },
       "ml": {
         "failed": 2,
         "attempted": 429,
         "visits": 6,
         "exchange": 60000,
-        "visitCost": 900
+        "visitCost": 900,
+        "groups": {
+          "Low-volume": {
+            "failed": 0,
+            "attempted": 107
+          },
+          "Standard": {
+            "failed": 2,
+            "attempted": 322
+          }
+        }
       }
     }
   ],
@@ -295,21 +655,51 @@
       "attempted": 5160,
       "visits": 48,
       "exchange": 415200,
-      "failedRate": 0.021705426356589147
+      "failedRate": 0.021705426356589147,
+      "groups": {
+        "Low-volume": {
+          "failed": 3,
+          "attempted": 1287
+        },
+        "Standard": {
+          "failed": 109,
+          "attempted": 3873
+        }
+      }
     },
     "seasonal": {
       "failed": 16,
       "attempted": 5160,
       "visits": 64,
       "exchange": 720000,
-      "failedRate": 0.0031007751937984496
+      "failedRate": 0.0031007751937984496,
+      "groups": {
+        "Low-volume": {
+          "failed": 0,
+          "attempted": 1287
+        },
+        "Standard": {
+          "failed": 16,
+          "attempted": 3873
+        }
+      }
     },
     "ml": {
       "failed": 12,
       "attempted": 5160,
       "visits": 68,
       "exchange": 718800,
-      "failedRate": 0.002325581395348837
+      "failedRate": 0.002325581395348837,
+      "groups": {
+        "Low-volume": {
+          "failed": 0,
+          "attempted": 1287
+        },
+        "Standard": {
+          "failed": 12,
+          "attempted": 3873
+        }
+      }
     }
   },
   "pairedImprovement": {
